@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 import javax.jms.JMSException;
 import javax.servlet.http.HttpSession;
 
-import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang3.ArrayUtils;
 
 public class SharedSession {
 	private final Map<String, Object> attributes;

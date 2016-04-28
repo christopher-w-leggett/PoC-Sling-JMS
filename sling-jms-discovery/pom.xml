@@ -9,7 +9,7 @@
 	<parent>
 		<groupId>com.cognifide.cq.jms</groupId>
 		<artifactId>sling-jms-parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<version>0.1.1-SNAPSHOT</version>
 	</parent>
 
 	<name>Sling JMS discovery</name>
@@ -30,7 +30,6 @@
 			<plugin>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>maven-bundle-plugin</artifactId>
-				<version>2.4.0</version>
 				<extensions>true</extensions>
 				<configuration>
 					<instructions>
@@ -48,7 +47,7 @@
 		<dependency>
 			<groupId>com.cognifide.cq.jms</groupId>
 			<artifactId>sling-jms-api</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 
 		<!-- scr -->
@@ -95,8 +94,8 @@
 
 		<!-- commons -->
 		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
 		</dependency>
 
 		<!-- jms -->

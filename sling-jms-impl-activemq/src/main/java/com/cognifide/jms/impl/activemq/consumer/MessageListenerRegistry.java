@@ -72,7 +72,7 @@ public class MessageListenerRegistry {
 	}
 
 	public void unbindConsumers(MessageListener listener, Map<String, Object> properties) throws JMSException {
-		Consumer consumer = consumers.get(consumers);
+		Consumer consumer = consumers.get(listener);
 		if (consumer != null) {
 			consumer.close();
 		}
