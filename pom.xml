@@ -7,7 +7,7 @@
 	<groupId>com.cognifide.cq.jms</groupId>
 	<artifactId>sling-jms-parent</artifactId>
 	<inceptionYear>2013</inceptionYear>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.1</version>
 	<packaging>pom</packaging>
 
 	<name>Sling JMS parent</name>
